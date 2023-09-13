@@ -1,0 +1,20 @@
+body {
+    background: #FFF;
+color:  #434455;
+    font-family: Roboto,sans-serif;
+}
+.WebStudio{
+    color: var(--IRIS, #4D5AE5);
+        font-family: Raleway,sans-serif;
+        font-weight: 700;
+    
+}
+.Effect-Sol{
+color: var(--WHITE, #FFF);
+    text-align: center;
+
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    line-height: 60px;
+}
+
