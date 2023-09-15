@@ -1,20 +1,190 @@
 body {
-    background: #FFF;
-color:  #434455;
-    font-family: Roboto,sans-serif;
+  background: #fff;
+  color: #434455;
+  font-family: Roboto, sans-serif;
 }
-.WebStudio{
-    color: var(--IRIS, #4D5AE5);
-        font-family: Raleway,sans-serif;
-        font-weight: 700;
-    
+ul {
+  list-style: none;
 }
-.Effect-Sol{
-color: var(--WHITE, #FFF);
+a {
+  text-decoration: none;
+}
+
+.header-logo {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo-studio {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-menu-link {
+  color: var(--SLATE, #434455);
+  background: var(--WHITE, #fff);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-menu-link:hover {
+color: var(--OCEAN, #404BBF);
+text-decoration-line: underline;
+}
+.header-menu-list:hover{
+color: var(--OCEAN, #404BBF);
+
+}
+
+.header-menu-list{
+  color: var(--SLATE, #434455);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  
+}
+
+/* SOLUTIONS */
+.solutions{
+     background: var(--NAVY-BLUE, #2e2f42);
+     text-align: center;
+}
+
+.solutions-title {
+  color: var(--WHITE, #fff);
+  
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+}
+.solutions-btn:hover {
+  background: var(--OCEAN, #404bbf);
+}
+.solutions-btn {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  background: var(--IRIS, #4d5ae5);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+ 
+}
+.advantages-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.advantages-list-text {
+  color: var(--SLATE, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+                  /* Our Team */
+.our-team{
+    background: var(--CLOUD, #F4F4FD);
+}
+                                  
+.our-team-title{
+color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
-
-    font-family: Roboto,sans-serif;
+    font-family: Roboto;
+    font-size: 36px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
-
+.our-team-title-list{
+    color: var(--NAVY-BLUE, #2E2F42);
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.our-team-list-item{
+ background: var(--WHITE, #FFF);
+}
+.our-team-text{
+color: var(--SLATE, #434455);
+font-family: Roboto;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.portfolio{
+background: #FFF;
+}
+.portfolio-title{
+color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.portfolio-list-title{
+color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.portfolio-list-text{
+color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+                /* FOOTER */
+.footer{
+background: var(--NAVY-BLUE, #2E2F42);
+}
+.footer-logo{
+color: var(--IRIS, #4d5ae5);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.footer-logo-studio {
+    color: var(--CLOUD, #F4F4FD);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.footer-text{
+color: var(--CLOUD, #F4F4FD);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
