@@ -29,9 +29,10 @@ a {
   text-transform: uppercase;
 }
 .header-menu-link {
-  color: var(--SLATE, #434455);
+  color: var(#2e2f42);
   background: var(--WHITE, #fff);
   font-family: Roboto, sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -154,7 +155,6 @@ background-color: #404BBF
 }
 .portfolio-list-title {
   color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
