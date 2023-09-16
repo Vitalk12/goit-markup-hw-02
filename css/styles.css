@@ -39,7 +39,6 @@ a {
 }
 .header-menu-link:hover {
   color: var(--OCEAN, #404bbf);
-  text-decoration-line: underline;
 }
 .header-menu-link:focus {
   color: #404bbf;
